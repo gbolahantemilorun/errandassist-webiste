@@ -1,10 +1,3 @@
-/**
-* Template Name: Techie - v2.0.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -687,6 +680,7 @@ section {
 }
 
 .services .icon-box h4 {
+  color:  #2c4964;
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
@@ -778,6 +772,54 @@ section {
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+
+.services .get-started-btn {
+  margin-left: 25px;
+  color: #0d2f78;
+  border-radius: 5px;
+  padding: 6px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  border: 2px solid rgba(100, 100, 255, 0.5);
+  text-align: center;
+}
+
+.services .get-started-btn:hover {
+  background: #8b97a3;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# How It Works
+--------------------------------------------------------------*/
+.HowItWorks .icon-box h4 {
+  color: #2c4964;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.HowItWorks .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #5846f9;
+}
+
+.HowItWorks .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+.HowItWorks .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
 }
 
 /*--------------------------------------------------------------
